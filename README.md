@@ -1,9 +1,9 @@
-Pet Adoption Data Analysis
+# Pet Adoption Data Analysis
 This project provides an in-depth analysis of pet adoption data, specifically focusing on cats and dogs. It utilizes data extracted from Petfinder.com API, which is a vast database of adoptable pets in the North America region.
 
 The project uses Python and several data science libraries including pandas, seaborn, matplotlib, and nltk.
 
-Project Structure
+## Project Structure
 The project is divided into several sections, each focusing on a different aspect of the data:
 
 Data Extraction: In this initial stage, data from Petfinder API is extracted, forming the raw dataset for this project.
@@ -18,7 +18,7 @@ Sentiment Analysis of Descriptions: The pet descriptions are analyzed to underst
 
 Comparative Analysis of Cats and Dogs: This section provides a comparison between cats and dogs in terms of adoptability and sentiment scores.
 
-Results
+## Results
 The project provides several interesting findings such as:
 
 Younger pets are more likely to be adopted quickly compared to older ones.
@@ -27,7 +27,7 @@ The breed of the pet does not significantly impact the speed of adoption.
 The sentiment score of the description does not significantly affect the speed of adoption.
 Please refer to the Jupyter notebook for detailed analysis and visualizations.
 
-How to Run
+## How to Run
 Clone the repository.
 Install the necessary Python packages. You can do this by running pip install -r requirements.txt in your terminal.
 Open the Jupyter notebook.
